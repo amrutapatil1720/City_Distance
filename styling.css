@@ -1,0 +1,33 @@
+body {
+    background: url(bg1.jpg) center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family:arvo,serif;
+}
+
+.jumbotron {
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+}
+.jumbotron h2 {
+    letter-spacing: 2.5px;
+}
+.jumbotron h2 , .jumbotron p {
+    text-align: center;
+}
+
+/*map*/
+#googleMap {
+    width:100%;
+    height: 200px;
+    margin:10px auto;
+}
+
+
+/*Output box */
+#output {
+    text-align: center;
+    margin :20px auto;
+    font-size: 1.4em;
+}
